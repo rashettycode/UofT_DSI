@@ -10,7 +10,7 @@ Follow these instructions to set up the project on your local machine for develo
 
 ### Prerequisites
 
-Before you begin, ensure you have Python installed on your system. You also need `PyYAML` for YAML file handling and `requests` for making API requests.
+Before you begin, ensure you have Python installed on your system and `requests` for making API requests.
 
 
 ### Setting Up
@@ -36,7 +36,7 @@ This will execute the script, which fetches the top 20 starred GitHub repositori
 
 How It Works
 
-hello.py: A Python script that reads a YAML configuration file for the GitHub API token, makes an API request to GitHub and retrieves information about the top 20 starred repositories.
+hello.py: A Python script that reads  for the GitHub API token, makes an API request to GitHub and retrieves information about the top 20-starred repositories.
 
 GitHub API: Used for fetching repository data based on star counts.
 
@@ -46,10 +46,7 @@ For deployment in a production environment, additional security and error-handli
 
 Built With
 Python
-PyYAML - For parsing YAML files
 Requests - For making HTTP requests to the GitHub API
-Versioning
-We use SemVer for versioning.
 
 Authors
 Initial work - rashettycode
